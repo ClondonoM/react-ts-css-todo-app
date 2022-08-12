@@ -8,7 +8,7 @@ interface Props {
 
 const InputField = ({todo, setTodo,handleAdd}:Props) => {
   return (
-    <form className={styles.input} onSubmit={handleAdd}>
+    <form className={styles.input} onSubmit={(e) =>handleAdd(e)}>
       <input type="input"
         value={todo}
         onChange={(e) => setTodo(e.target.value)}
