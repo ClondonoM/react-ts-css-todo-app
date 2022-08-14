@@ -1,0 +1,28 @@
+.todos_single {
+  display: flex;
+  width: 29.5%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 20px;
+  margin-top: 15px;
+  /* background-image: url('https://www.freepik.es/foto-gratis/superficie-ondas-rayas-blancas-superficie-bandas-deformadas-luz-suave-fondo-brillante-moderno_11221155.htm#query=patrones&position=14&from_view=search'); */
+}
+
+.todos_sigle_text {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+.todos_sigle_text:focus {
+  outline: none;
+}
+.icon {
+  margin-left: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
